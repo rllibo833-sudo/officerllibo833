@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Press_Start_2P, VT323 } from 'next/font/google'
+import { SITE_DESCRIPTION, SITE_TITLE, SITE_URL } from '@/lib/site'
 import './globals.css'
 
 const pressStart = Press_Start_2P({
@@ -18,9 +19,19 @@ const vt323 = VT323({
 })
 
 export const metadata: Metadata = {
-  title: 'OFFICE-RLLIE833 — Cozy Pixel Office',
-  description:
-    'A cozy isometric pixel-art office mini game. Walk around, visit each room, and explore the GitHub repos of rllie833.',
+  metadataBase: new URL(SITE_URL),
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
+  alternates: { canonical: '/' },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    url: '/',
+    siteName: 'OFFICE-RLLIBO833',
+    type: 'website',
+  },
+  twitter: { card: 'summary', title: SITE_TITLE, description: SITE_DESCRIPTION },
   generator: 'v0.app',
   icons: {
     icon: [
