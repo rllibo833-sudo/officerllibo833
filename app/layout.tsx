@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: SITE_TITLE,
   description: SITE_DESCRIPTION,
+  verification: {
+    google: 'w24f_tGbw6SlsPcZiIcUZv0I7kq6-XK0cbfAfsP8Zdo',
+  },
   alternates: { canonical: '/' },
   robots: { index: true, follow: true },
   openGraph: {
