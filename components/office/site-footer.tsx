@@ -14,7 +14,7 @@ export function SiteFooter() {
         className="flex items-center gap-2 border-2 border-border bg-background px-2 py-1 font-pixel text-[8px] text-foreground transition-colors hover:border-warm hover:text-warm focus-visible:outline-2 focus-visible:outline-warm sm:text-[10px]"
       >
         <GithubIcon className="size-4" />
-        <span>github.com/rllie833</span>
+        <span>github.com/rllibo833-sudo</span>
       </a>
     </footer>
   )

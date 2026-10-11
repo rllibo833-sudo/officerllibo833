@@ -20,18 +20,17 @@ export type Room = {
 }
 
 export const MAP_SIZE = 15
-export const GITHUB_PROFILE_URL = 'https://github.com/rllie833'
+export const GITHUB_PROFILE_URL = 'https://github.com/rllibo833-sudo'
 
 export const ROOMS: Room[] = [
   {
     id: 'lab',
     name: 'PUSINGCUK LAB',
-    repo: 'rllie833/pusingcuk',
-    repoUrl: 'https://github.com/rllie833/pusingcuk',
-    demoUrl: 'https://rllie833.github.io/pusingcuk',
+    repo: 'rllibo833-sudo/pusingcuk',
+    repoUrl: 'https://github.com/rllibo833-sudo/pusingcuk',
+    demoUrl: 'https://rllibo833-sudo.github.io/pusingcuk',
     tagline: 'Where the code makes you dizzy.',
-    description:
-      'The R&D playground. Experiments, prototypes and late-night coding sessions live here. Bugs are born in this lab, and the good ideas graduate to production.',
+    description: 'Bahasa pemrograman eksperimental bergaya esoterik',
     tags: ['Experiments', 'Prototypes', 'WIP'],
     rect: { x: 0, y: 10, w: 5, h: 5 },
     palette: {
@@ -45,12 +44,12 @@ export const ROOMS: Room[] = [
   {
     id: 'server',
     name: 'CORE SERVER',
-    repo: 'rllie833/core',
-    repoUrl: 'https://github.com/rllie833/core',
-    demoUrl: 'https://rllie833.github.io/core',
+    repo: 'rllibo833-sudo/kawasan-masjid-core',
+    repoUrl: 'https://github.com/rllibo833-sudo/kawasan-masjid-core',
+    demoUrl: 'https://rllibo833-sudo.github.io/kawasan-masjid-core',
     tagline: 'The beating heart of the office.',
     description:
-      'Shared services, APIs and infrastructure that power every other room. The racks blink all night so everything else can just work.',
+      'Canonical CORE for the Kawasan Masjid 1.000 Ha digital ecosystem',
     tags: ['Backend', 'API', 'Infra'],
     rect: { x: 10, y: 0, w: 5, h: 5 },
     palette: {
@@ -64,12 +63,11 @@ export const ROOMS: Room[] = [
   {
     id: 'founder',
     name: 'FOUNDER OS',
-    repo: 'rllie833/founder-os',
-    repoUrl: 'https://github.com/rllie833/founder-os',
-    demoUrl: 'https://rllie833.github.io/founder-os',
+    repo: 'rllibo833-sudo/Founder-OS',
+    repoUrl: 'https://github.com/rllibo833-sudo/Founder-OS',
+    demoUrl: 'https://rllibo833-sudo.github.io/Founder-OS',
     tagline: 'The operating system for building a company.',
-    description:
-      'Roadmaps, decisions, rituals and the master plan pinned to the board. The founder desk sits right in the middle so nothing ships without passing through here.',
+    description: 'Second brain and operating system for a solo founder',
     tags: ['Roadmap', 'Planning', 'Ops'],
     rect: { x: 5, y: 5, w: 5, h: 5 },
     palette: {
@@ -83,12 +81,11 @@ export const ROOMS: Room[] = [
   {
     id: 'lobby',
     name: 'PUBLIC LOBBY',
-    repo: 'rllie833/office-rllie833',
-    repoUrl: 'https://github.com/rllie833/office-rllie833',
-    demoUrl: 'https://office-rllie833.com',
+    repo: 'rllibo833-sudo/kawasan-masjid-public',
+    repoUrl: 'https://github.com/rllibo833-sudo/kawasan-masjid-public',
+    demoUrl: 'https://rllibo833-sudo.github.io/kawasan-masjid-public',
     tagline: 'Visitors welcome. Grab a coffee.',
-    description:
-      'This very office! An isometric pixel-art mini game built with plain HTML Canvas, where every room is a repo. Walk in, look around and say hi.',
+    description: 'Public website for the Kawasan Masjid 1.000 Ha vision',
     tags: ['Canvas', 'Game', 'Portfolio'],
     rect: { x: 10, y: 10, w: 5, h: 5 },
     palette: {
